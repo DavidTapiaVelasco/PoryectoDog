@@ -1,0 +1,35 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+/*CUADRO*/
+.contenedor {
+    padding: 0px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: #D750EB;
+    border: 8px outset #704BDB;
+}
+/*BOTON ROJO*/
+#player {
+	background-color: #4BDB91;
+	border: 4px outset #4BB999;
+	width: 50px;
+	height: 50px;
+	border-radius: 29px;
+	position: absolute;
+	transition: all 0.3s
+}
+/*puntaje cabezera*/
+.puntaje {
+	background-color: #4BB999;
+	height: 30px;
+	margin-top: 30px;
+	border-bottom: 0px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0px;
+}
